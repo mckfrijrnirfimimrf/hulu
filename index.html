@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hulu Plus</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="main">
+    <div data-role="header">
+        <h1>Hulu Plus</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main" class="ui-btn-active">Main</a></li>
+                <li><a href="#tv">TV</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#queue">Queue</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <h2>Main</h2>
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">Featured Show 1</a></li>
+            <li><a href="#">Featured Show 2</a></li>
+            <li><a href="#">Featured Movie 1</a></li>
+            <li><a href="#">Featured Movie 2</a></li>
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="tv">
+    <div data-role="header">
+        <h1>Hulu Plus</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#tv" class="ui-btn-active">TV</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#queue">Queue</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <h2>TV Shows</h2>
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">Show 1</a></li>
+            <li><a href="#">Show 2</a></li>
+            <li><a href="#">Show 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="movies">
+    <div data-role="header">
+        <h1>Hulu Plus</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#tv">TV</a></li>
+                <li><a href="#movies" class="ui-btn-active">Movies</a></li>
+                <li><a href="#queue">Queue</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <h2>Movies</h2>
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">Movie 1</a></li>
+            <li><a href="#">Movie 2</a></li>
+            <li><a href="#">Movie 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="queue">
+    <div data-role="header">
+        <h1>Hulu Plus</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#tv">TV</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#queue" class="ui-btn-active">Queue</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <h2>Your Queue</h2>
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">Queued Show 1</a></li>
+            <li><a href="#">Queued Movie 1</a></li>
+            <li><a href="#">Queued Show 2</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
